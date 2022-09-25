@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navigation{
+    position: sticky;
+}
+
+#navbar {
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
+.logo{
+    
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    margin: 5px 400px 5px 0px;
+}
+.logo span{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: blue;
+    justify-content: center;
+    text-align: center;
+}
+#navbar ul{
+    display: flex;
+}
+.account{
+    margin: 5px 0px 5px 400px;
+}
+.btn{
+    font-size: 1.1rem;
+    padding: 1.5px;
+    margin: 10px 60px 0px 0px;
+}
+.container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-areas:
+        'section section aside aside aside aside';
+}
+
+.city h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2rem;
+    margin: 15px 10px;
+}
+
+.box1 {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.image,
+.address {
+    margin: 25px;
+    display: inline-block;
+}
+
+.address h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(12, 12, 49);
+}
+
+.address div {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.landmark {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(60, 60, 175);
+}
+
+.item1 {
+    padding: 25px;
+}
+
+.item2 {
+    padding: 0px 25px;
+}
+
+#section {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    grid-area: section;
+}
+
+#aside {
+    grid-area: aside;
+}
+
+.box:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.image img {
+    height: 130px;
+    width: 130px;
+}
+
+.cuisine {
+    margin-left: 100px;
+}
+
+.cuisine span {
+    margin-left: 40px;
+    color: rgb(63, 65, 201);
+}
+
+.locationSearch{
+    display: flex;
+}
+select {
+    width: 150px;
+    height: 35px;
+    font-size: 1.3rem;
+}
+.locationSearch div a{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    padding: 0px 0px;
+}
+
+.locationSearch div a img {
+    width: 35px;
+    height: 30px;
+}
+
+h3,
+h4 {
+    margin: 12px 0px 8px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.nextPage {
+    padding: 10px 234px;
+    margin: 15px 0px 0px 0px;
+
+}
